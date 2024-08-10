@@ -16,8 +16,8 @@
         src="public/img/纳西妲.png"
         alt="Avatar"
       />
-      <h3 class="nickname">DoWake</h3>
-      <p class="introduce">心若有所向往，何惧道阻且长。</p>
+      <h3 class="nickname">Asos</h3>
+      <p class="introduce">行百里者半九十</p>
       <nav>
         <div class="item">
           <a href="#">
@@ -38,12 +38,18 @@
           <div class="tooltip">个人主页</div>
         </div>
       </nav>
-      <p class="quote">
-        无论人生上到哪一层台阶，阶下有人在仰望你，阶上亦有人在俯视你。
-        你抬头自卑，低头自得，唯有平视，才能看见最真实的自己。 ——杨绛
-      </p>
+      <p id="typed-text" class="quote"></p>
     </main>
     <script src="public/js/StarrySky.js"></script>
     <script src="public/js/index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#typed-text', {
+        strings: ['星辰大海, 探索无限,追逐梦想'],
+        typeSpeed: 150,
+        backSpeed: 50,
+        loop: true
+      });
+    </script>
   </body>
 </html>
