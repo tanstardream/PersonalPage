@@ -314,4 +314,8 @@ footer .copyright {
     width: 24px;
     height: 24px;
   }
+  .typed-cursor {
+  display: none !important;
+}
+
 }
